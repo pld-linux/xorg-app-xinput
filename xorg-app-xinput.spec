@@ -1,4 +1,5 @@
 Summary:	xinput application - allows configuration and testing of XInput devices
+Summary(pl.UTF-8):	Aplikacja xinput pozwalająca na konfigurację i testowanie urządzeń XInput
 Name:		xorg-app-xinput
 Version:	1.3.0
 Release:	1
@@ -14,6 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A utility to configure and test XInput devices.
+
+%description -l pl.UTF-8
+Narzędzie do konfiguracji i testowania urządzeń XInput.
 
 %prep
 %setup -q -n xinput-%{version}
