@@ -13,8 +13,8 @@ BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libXext-devel
-BuildRequires:	xorg-lib-libXi-devel
-BuildRequires:	xorg-proto-inputproto-devel >= 1.4
+BuildRequires:	xorg-lib-libXi-devel >= 1.2
+BuildRequires:	xorg-proto-inputproto-devel >= 1.5
 BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
