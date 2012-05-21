@@ -8,14 +8,14 @@ Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/archive/individual/app/xinput-%{version}.tar.bz2
 # Source0-md5:	d2459d35b4e0b41ded26a1d1159b7ac6
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libXext-devel
-BuildRequires:	xorg-lib-libXi-devel >= 1.2.99.4
-BuildRequires:	xorg-proto-inputproto-devel >= 1.9.99.902
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-lib-libXi-devel >= 1.6.0
+BuildRequires:	xorg-proto-inputproto-devel >= 2.1.99.1
+BuildRequires:	xorg-util-util-macros >= 1.8
 Requires:	xorg-lib-libXi >= 1.6.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
