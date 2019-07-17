@@ -1,13 +1,13 @@
 Summary:	xinput application - allows configuration and testing of XInput devices
 Summary(pl.UTF-8):	Aplikacja xinput pozwalająca na konfigurację i testowanie urządzeń XInput
 Name:		xorg-app-xinput
-Version:	1.6.2
+Version:	1.6.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/archive/individual/app/xinput-%{version}.tar.bz2
-# Source0-md5:	6a889412eff2e3c1c6bb19146f6fe84c
-URL:		http://xorg.freedesktop.org/
+Source0:	https://xorg.freedesktop.org/archive/individual/app/xinput-%{version}.tar.bz2
+# Source0-md5:	ac6b7432726008b2f50eba82b0e2dbe4
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
